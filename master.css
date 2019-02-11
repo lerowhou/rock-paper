@@ -1,0 +1,47 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  padding: 0;
+  background: #34495e;
+}
+header{
+  background: #e74c3c;
+  text-align: center;
+  width: 100vw;
+}
+header h1{
+  display: inline-block;
+}
+.score-board{
+  margin-top: 15px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 2.3em;
+}
+.badge{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #d63031;
+  color: white;
+}
+.select{
+  text-align:center;
+  margin-top: 15px;
+}
+.optn{
+  border: 3px solid white;
+  border-radius: 150px;
+  margin: 15px;
+  display: inline-block
+}
+.optn img{
+  margin: 15px;
+  border-radius: 100px;
+  max-width: 150px;
+  max-height: 150px;
+}
+.optn:hover{
+  background-color: rgba(45, 52, 54,.6);
+}
